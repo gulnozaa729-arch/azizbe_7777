@@ -1,0 +1,118 @@
+'''* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+
+  background: rgba(255, 255, 255, 1);
+  align-items: center;
+  border-radius: 2px;
+  border: 2px solid rgba(222, 219, 219, 1);
+  padding: 30px 300px;
+}
+
+.logo {
+  display: flex;
+  gap: 25px;
+}
+
+.logo p {
+  font-size: 36px;
+}
+
+.main {
+  width: 650px;
+  height: 786px;
+
+  border-radius: 50px;
+  border: 1px solid rgba(222, 219, 219, 1);
+  margin: 50px 720px;
+}
+
+.kirish {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  align-items: center;
+}
+
+.qism1 {
+  display: flex;
+}
+
+.qism1 p {
+  font-size: 24px;
+  color: rgba(240, 64, 15, 1);
+  width: 208px;
+  height: 29px;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  color: rgba(14, 13, 93, 1);
+}
+
+.shaxs {
+  width: 533px;
+  height: 52px;
+  margin: 30px;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  gap: 20px;
+  padding: 10px 95px;
+  border-radius: 20px;
+  background: rgba(245, 245, 245, 1);
+}
+
+.pp1 {
+  font-size: 28px;
+  color: black;
+}
+
+.pp2 {
+  font-size: 28px;
+  color: rgba(117, 117, 117, 1);
+}
+
+input {
+  display: flex;
+  justify-self: center;
+  width: 533px;
+  height: 70px;
+  margin: 25px;
+  border-radius: 20px;
+}
+
+::placeholder {
+  font-size: 24px;
+  width: 533;
+  height: 70;
+  padding: 20 0 20 10;
+}
+
+h4 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(158, 147, 147);
+}
+
+.oxiri {
+  width: 202px;
+  height: 67px;
+  background-color: rgba(246, 158, 134, 1);
+  border-radius: 20px;
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-self: end;
+  margin: 50px 10px;
+}
